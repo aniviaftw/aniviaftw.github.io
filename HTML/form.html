@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="request.php" method="get">
+        <label for="name"><b>Name:&nbsp;</b></label>
+        <input type="text" name="name" id="stu_name">
+        <br><br>
+        <label for="email">Emal:&nbsp;</label>
+        <input type="email" name="email" id="stu_email">
+        <br><br>
+        <label for="color">Choose your favorite color:&nbsp;</label>
+        <input type="color">
+        <br><br>
+        <label for="complain">Suggestions:&nbsp;</label>
+        <br><br>
+        <textarea name="complain" id="complain" cols="30" rows="10" placeholder="Please let us know"></textarea>
+        <br><br>
+        <label for="hobbies">Hobby:&nbsp;</label>
+        <select name="hobbies" id="hobbies">
+            <option value="">Choose your hobby</option>
+            <option value="1">Reading</option>
+            <option value="2">Gaming</option>
+            <option value="3">Sleeping</option>
+        </select>
+        <br><br>
+        <label for="education">Education Level:</label>
+        <br>
+        <label for="first">First Year:&nbsp;</label>
+        <input type="checkbox">
+        <label for="second">Second Year:&nbsp;</label>
+        <input type="checkbox">
+        <label for="Third">Third Year:&nbsp;</label>
+        <input type="checkbox">
+        <br><br>
+        <label for="phno">Phone No</label>
+        <input type="number" name="phno" id="phno">
+        <br><br>
+        <input type="datetime-local" name="" id="">
+        <br><br>
+        <label for="gender">Gender</label>
+        <br>
+        <label for="male">male</label>
+        <input type="radio" name="male" id="male" >
+        <label for="female">female</label>
+        <input type="radio" name="female" id="female">
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
