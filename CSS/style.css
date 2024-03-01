@@ -1,0 +1,29 @@
+/* a[title=google]{
+    color: green;
+    text-decoration: none;
+} */
+a:link{
+    color :black;
+    letter-spacing: 20px;
+    text-decoration: none;
+    word-spacing: normal;
+}
+
+a:hover{
+    text-transform: uppercase;
+    color: red;
+}
+
+a:active{
+    text-transform: capitalize;
+    color: blue;
+}
+
+/* a:visited{
+    color: yellow;
+} */
+
+:target{
+    color:red;
+    text-transform: uppercase;
+}
